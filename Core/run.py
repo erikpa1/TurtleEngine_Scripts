@@ -1,5 +1,7 @@
-from TurtleEngine.Gui import *
+from Core.EngineGui.engine_welcom_screen import WelcomeScreen
 
-window = TurtleWindow.New()
-window.Construct()
-window.DrawTestMesh()
+from TurtleEngine import *
+
+LogErr("Here")
+screen = WelcomeScreen()
+LogErr("Here1")
