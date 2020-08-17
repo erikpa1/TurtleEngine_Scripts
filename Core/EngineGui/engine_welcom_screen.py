@@ -16,11 +16,22 @@ class WelcomeScreen:
 
     def _CreateGui(self):
         root = self._window.GetRoot()
+
+        newProject = Element.New()
+        newProject.SetName("New project")
+        newProject.SetSize(-0.5, -0.5)
+        newProject.SetPosX(-0.5, -0.5)
+        newProject.SetBackgroundColor(200, 200, 200, 255)
+        root.AddElement(newProject)
+
         openRecent = Element.New()
-        openRecent.SetName("xyz")
+        openRecent.SetName("Open recent")
         openRecent.SetSize(-0.5, -0.5)
         openRecent.SetBackgroundColor(255, 255, 255, 255)
         root.AddElement(openRecent)
+
+
+
 
 
 
