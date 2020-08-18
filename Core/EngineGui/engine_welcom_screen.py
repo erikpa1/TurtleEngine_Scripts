@@ -3,13 +3,11 @@ from TurtleEngine import *
 class WelcomeScreen:
 
     def __init__(self):
-
         LogErr("Here3")
         self._window = TurtleWindow.New()
 
         LogErr("Here4")
         self._CreateGui()
-
 
         self._window.StartDrawingCycle()
         pass
@@ -29,10 +27,6 @@ class WelcomeScreen:
         openRecent.SetSize(-0.5, -0.5)
         openRecent.SetBackgroundColor(255, 255, 255, 255)
         root.AddElement(openRecent)
-
-
-
-
 
 
 
